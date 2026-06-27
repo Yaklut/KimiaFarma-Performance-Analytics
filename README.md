@@ -6,11 +6,13 @@ PT. Kimia Farma x Rakamin Academy | April–May 2025
 
 ## Project Overview
 
+![Dashboard Preview](Project-Overview.png)
+
 Kimia Farma, one of Indonesia's largest pharmaceutical companies, needed a data-driven approach to evaluate business performance across its branches nationwide. This project involved importing multi-source datasets into Google BigQuery, building an integrated analysis table using SQL, and delivering a performance analytics dashboard covering 2020–2023.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Import and integrate 4 datasets into Google BigQuery
 - Build a unified analysis table using SQL JOINs and CASE WHEN logic
@@ -19,7 +21,7 @@ Kimia Farma, one of Indonesia's largest pharmaceutical companies, needed a data-
 
 ---
 
-## 🗂️ Dataset Structure
+## Dataset Structure
 
 | File | Description |
 |------|-------------|
@@ -30,7 +32,7 @@ Kimia Farma, one of Indonesia's largest pharmaceutical companies, needed a data-
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Google BigQuery** — Dataset import, SQL query execution, table creation
 - **Google Looker Studio** — Interactive dashboard and data visualization
@@ -38,7 +40,7 @@ Kimia Farma, one of Indonesia's largest pharmaceutical companies, needed a data-
 
 ---
 
-## 🔧 SQL Query
+## SQL Query
 
 The following query builds the master analysis table by joining all 4 datasets and calculating nett sales and profit margins by price tier:
 
@@ -92,7 +94,7 @@ SELECT * FROM gabungan_transaksi;
 
 ---
 
-## 📊 Dashboard Summary
+## Dashboard Summary
 
 **Key Metrics (2020–2023):**
 - Total Transactions: 672,500+
@@ -117,7 +119,7 @@ SELECT * FROM gabungan_transaksi;
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - Nett sales remained stable between Rp6.5M–Rp8M monthly from January 2020 to July 2023, indicating consistent revenue generation
 - Jawa Barat dominates both transaction volume (198,700) and nett sales (Rp102.5M), showing strong value-volume synergy
@@ -126,24 +128,30 @@ SELECT * FROM gabungan_transaksi;
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 **1. Regional Focus Strategy**
+
 Concentrate sales campaigns in mid-tier provinces (Jawa Timur, Sulawesi Utara) to close the performance gap with Jawa Barat.
 
 **2. Branch Service Quality Improvement**
+
 Investigate transaction flow at high-rated branches with low transaction ratings. Provide additional staff training or technology enhancements to align service delivery with branch reputation.
 
 **3. Profit Margin Optimization**
+
 Focus on operational efficiency and cost reduction strategies, particularly in branches showing stable sales but lower-than-average profit margins.
 
 **4. Inventory Management**
+
 Leverage stock opname data from kf_inventory to align product availability with high-demand regions and peak transaction periods.
 
 ---
 
-## 👤 Author
+## Author
 
 **Refa Defanda Witanto**
+
 International Relations, Universitas Brawijaya
+
 [LinkedIn](https://www.linkedin.com/in/refa-defanda/) | refadfnda@gmail.com
