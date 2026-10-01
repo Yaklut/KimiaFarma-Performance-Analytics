@@ -2,8 +2,6 @@
 **Project-Based Virtual Internship — Big Data Analytics**
 PT. Kimia Farma x Rakamin Academy | April–May 2025
 
-**Dashboard:** [Open in Data Studio](ISI_LINK_DASHBOARD) · **Video presentation:** [Watch](ISI_LINK_VIDEO)
-
 ---
 
 ## Project Overview
